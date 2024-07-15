@@ -25,7 +25,7 @@ DimProduct: Contém informações sobre os produtos.
 Colunas da View VENDAS
 
 Para facilitar a análise dos dados, foi criada a view VENDAS com as seguintes colunas:
-'''sql
+```sql
 
 CREATE OR ALTER VIEW VENDAS AS
 SELECT
@@ -51,7 +51,7 @@ JOIN
 JOIN
     DimProductCategory AS pc ON ps.ProductCategoryKey = pc.ProductCategoryKey;
 
-'''sql
+```
 
 
 Integração com o Excel
@@ -60,7 +60,7 @@ Após a criação da view VENDAS, os dados foram importados para o Excel utiliza
 
 Dashboard Resultante
 
-![Dashboard de Vendas](dashboard.png)
+![Dashboard de Vendas](https://github.com/mmaasp/ProjetoBancoDados/blob/main/imagens/Captura%20de%20tela%202024-07-11%20135627.png)
 
 Screenshots e Exemplos
 
@@ -72,11 +72,11 @@ Receita Total versus Custo Total por País
 
 Vendas por Mês
 
-![Vendas por Mês](vendas_por_mes.png)
+![Vendas por Mês](https://github.com/mmaasp/ProjetoBancoDados/blob/main/imagens/1.png)
 
 Vendas por Categoria
 
-![Vendas por Categoria](vendas_por_categoria.png)
+![Vendas por Categoria](https://github.com/mmaasp/ProjetoBancoDados/blob/main/imagens/2.png)
 
 Vendas por Gênero
 
